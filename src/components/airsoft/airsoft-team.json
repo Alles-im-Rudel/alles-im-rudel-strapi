@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_airsoft_airsoft_teams",
+  "info": {
+    "displayName": "Airsoft Team",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "callName": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "position": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "joinedAt": {
+      "type": "date"
+    },
+    "playerBadges": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::player-badge.player-badge"
+    }
+  }
+}

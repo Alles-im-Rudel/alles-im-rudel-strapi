@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "board_of_directors",
+  "info": {
+    "singularName": "board-of-director",
+    "pluralName": "board-of-directors",
+    "displayName": "board of director"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "birthday": {
+      "type": "date"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "instagramLink": {
+      "type": "string"
+    },
+    "snapchatLink": {
+      "type": "string"
+    },
+    "linkedinLink": {
+      "type": "string"
+    }
+  }
+}

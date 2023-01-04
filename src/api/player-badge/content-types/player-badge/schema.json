@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "player_badges",
+  "info": {
+    "singularName": "player-badge",
+    "pluralName": "player-badges",
+    "displayName": "Player Badge"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

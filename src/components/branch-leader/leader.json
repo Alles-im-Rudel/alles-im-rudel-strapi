@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_branch_leader_leaders",
+  "info": {
+    "displayName": "leader"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "birthday": {
+      "type": "date"
+    },
+    "description": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
