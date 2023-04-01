@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "datenschutzerklaerungs",
+  "info": {
+    "singularName": "datenschutzerklaerung",
+    "pluralName": "datenschutzerklaerungs",
+    "displayName": "Datenschutzerklärung"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "text": {
+      "type": "richtext"
+    }
+  }
+}

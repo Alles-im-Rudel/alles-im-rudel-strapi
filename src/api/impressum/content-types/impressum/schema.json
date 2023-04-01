@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "impressums",
+  "info": {
+    "singularName": "impressum",
+    "pluralName": "impressums",
+    "displayName": "Impressum"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "text": {
+      "type": "richtext"
+    }
+  }
+}

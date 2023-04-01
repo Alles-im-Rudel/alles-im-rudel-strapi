@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_e_sports_lo_l_team_members",
+  "info": {
+    "displayName": "LoL Team Member"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "lolName": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "lolLane": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::lol-lane.lol-lane"
+    }
+  }
+}

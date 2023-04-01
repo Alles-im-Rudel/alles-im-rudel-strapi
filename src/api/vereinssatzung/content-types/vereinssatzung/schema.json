@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "vereinssatzungs",
+  "info": {
+    "singularName": "vereinssatzung",
+    "pluralName": "vereinssatzungs",
+    "displayName": "Vereinssatzung",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "text": {
+      "type": "richtext"
+    }
+  }
+}
