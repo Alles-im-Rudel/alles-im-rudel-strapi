@@ -74,6 +74,11 @@
       "type": "component",
       "repeatable": true,
       "component": "airsoft.airsoft-team"
+    },
+    "lolTeams": {
+      "type": "component",
+      "repeatable": true,
+      "component": "e-sports.lol-team"
     }
   }
 }
